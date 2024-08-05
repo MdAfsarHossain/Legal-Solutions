@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal Solutions</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/court.png" type="image/x-icon" />
+
+    <!-- Tailwind and DaisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- EB Garamond Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Flowbite CDN -->
+    <!--  
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+	-->
+
+    <!-- Custom CSS -->
+    <style>
+      .font-garamond {
+        font-family: "EB Garamond", serif;
+      }
+    </style>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "primary-color": "#B68C5A",
+            },
+            backgroundImage: {
+              "banner-img": "url('./images/banner.png')",
+              "slider-1": "url('./images/slider-1.jpg')",
+              "slider-2": "url('./images/slider-2.jpg')",
+              "slider-3": "url('./images/slider-3.jpg')",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-garamond">
+    <!-- This is Header Section -->
+    <header class="">
+      <!-- This is Navbar -->
+      <nav
+        class="py-3 ml-5 mr-5 mx-auto md:ml-10 md:mr-10 lg:ml-40 lg:mr-40 lg:mx-auto mb-10 flex flex-row justify-between items-center"
+      >
+        <!-- Nav Start -->
+        <div class="w-32 md:w-56">
+          <!-- Nav Logo -->
+          <a class="cursor-pointer block"
+            ><img class="w-32 md:w-44" src="./images/logo2.png" alt=""
+          /></a>
+        </div>
+        <!-- Nav Center -->
+        <div class="hidden lg:block">
+          <ul
+            class="menu menu-horizontal px-1 text-black-100 text-lg font-medium"
+          >
+            <li><a>Home</a></li>
+            <li>
+              <a href="#">Services <i class="fa-solid fa-chevron-right"></i></a>
+            </li>
+            <li>
+              <a>Cases <i class="fa-solid fa-chevron-right"></i></a>
+            </li>
+            <li>
+              <a href="#">Blog <i class="fa-solid fa-chevron-right"></i></a>
+            </li>
+            <li>
+              <a href="#"
+                >Contact Us <i class="fa-solid fa-chevron-right"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!-- Nav End -->
+        <div class="lg:flex lg:flex-row lg:justify-end lg:items-center lg:mr-0">
+          <a
+            class="hidden btn bg-primary-color text-base lg:w-40 text-white rounded hover:text-black hover:bg-transparent hover:border-black lg:flex lg:flex-row lg:justify-center lg:items-center"
+            >Free Consultation</a
+          >
+
+          <!-- Menubars -->
+        </div>
+      </nav>
+    </header>
+
+    <!-- Flowbite Script -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+  </body>
+</html>
